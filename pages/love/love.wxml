@@ -1,0 +1,225 @@
+<!--pages/love/love.wxml-->
+<!--购物车-->
+<view>
+  <view class="tou">
+    <!-- <radio-group>
+      <label><radio/>radio1</label>
+
+    </radio-group> -->
+
+    <label  class="xuan"><checkbox/>全选</label>
+    <label class="shan"><navigator url="#">编辑</navigator></label>
+  </view>
+</view>
+
+<!--购物车商品-->
+<view class="shangpins">
+<view class="loves">
+  <label>
+    <checkbox>
+      <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    </checkbox>
+
+    <view class="shuoming">
+      <view class="bookname">人间失格</view>
+      <view class="miaoshu">一本</view>
+      <view>
+        <label>
+          <text class="bookxprice">￥79.3</text>
+          
+          <view class="shuliang">
+            <form>
+            <button id="jian">+</button>
+            <input type="text" value="1" id="shu"></input>
+            <button id="jia">-</button>
+            </form>
+          </view>
+
+        </label>
+      </view>
+    </view>
+
+  </label>
+</view>
+
+
+<view class="loves">
+  <label>
+    <checkbox>
+      <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    </checkbox>
+
+    <view class="shuoming">
+      <view class="bookname">人间失格</view>
+      <view class="miaoshu">一本</view>
+      <view>
+        <label>
+          <text class="bookxprice">￥79.3</text>
+          
+          <view class="shuliang">
+            <form>
+            <button id="jian">+</button>
+            <input type="text" value="1" id="shu"></input>
+            <button id="jia">-</button>
+            </form>
+          </view>
+
+        </label>
+      </view>
+    </view>
+
+  </label>
+</view>
+<view class="loves">
+  <label>
+    <checkbox>
+      <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    </checkbox>
+
+    <view class="shuoming">
+      <view class="bookname">人间失格</view>
+      <view class="miaoshu">一本</view>
+      <view>
+        <label>
+          <text class="bookxprice">￥79.3</text>
+          
+          <view class="shuliang">
+            <form>
+            <button id="jian">+</button>
+            <input type="text" value="1" id="shu"></input>
+            <button id="jia">-</button>
+            </form>
+          </view>
+
+        </label>
+      </view>
+    </view>
+
+  </label>
+</view>
+<view class="loves">
+  <label>
+    <checkbox>
+      <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    </checkbox>
+
+    <view class="shuoming">
+      <view class="bookname">人间失格</view>
+      <view class="miaoshu">一本</view>
+      <view>
+        <label>
+          <text class="bookxprice">￥79.3</text>
+          
+          <view class="shuliang">
+            <form>
+            <button id="jian">+</button>
+            <input type="text" value="1" id="shu"></input>
+            <button id="jia">-</button>
+            </form>
+          </view>
+
+        </label>
+      </view>
+    </view>
+
+  </label>
+</view>
+<view class="loves">
+  <label>
+    <checkbox>
+      <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    </checkbox>
+
+    <view class="shuoming">
+      <view class="bookname">人间失格</view>
+      <view class="miaoshu">一本</view>
+      <view>
+        <label>
+          <text class="bookxprice">￥79.3</text>
+          
+          <view class="shuliang">
+            <form>
+            <button id="jian">+</button>
+            <input type="text" value="1" id="shu"></input>
+            <button id="jia">-</button>
+            </form>
+          </view>
+
+        </label>
+      </view>
+    </view>
+
+  </label>
+</view>
+<view class="loves">
+  <label>
+    <checkbox>
+      <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    </checkbox>
+
+    <view class="shuoming">
+      <view class="bookname">人间失格</view>
+      <view class="miaoshu">一本</view>
+      <view>
+        <label>
+          <text class="bookxprice">￥79.3</text>
+          
+          <view class="shuliang">
+            <form>
+            <button id="jian">+</button>
+            <input type="text" value="1" id="shu"></input>
+            <button id="jia">-</button>
+            </form>
+          </view>
+
+        </label>
+      </view>
+    </view>
+
+  </label>
+</view>
+<view class="loves">
+  <label>
+    <checkbox>
+      <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    </checkbox>
+
+    <view class="shuoming">
+      <view class="bookname">人间失格</view>
+      <view class="miaoshu">一本</view>
+      <view>
+        <label>
+          <text class="bookxprice">￥79.3</text>
+          
+          <view class="shuliang">
+            <form>
+            <button id="jian">+</button>
+            <input type="text" value="1" id="shu"></input>
+            <button id="jia">-</button>
+            </form>
+          </view>
+
+        </label>
+      </view>
+    </view>
+
+  </label>
+</view>
+
+</view>
+
+
+<!--底线-->
+<view class="dixian">
+      <text>——————人家可是有底线的——————</text>
+</view>
+<view id="kongwei"></view>
+
+<!--结算-->
+<view id='jiesuan'>
+  <view>
+    <form>
+      <button form-type="submit" id="suanzhang">结算</button>
+    </form>
+  </view>
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shop/shop",
+    "pages/love/love",
+    "pages/account/account",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff200",
+    "navigationBarTitleText": "手不释卷",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#636e72",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff200",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/image/index2.png",
+        "selectedIconPath": "pages/image/index1.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "全部",
+        "iconPath": "pages/image/all2.png",
+        "selectedIconPath": "pages/image/all1.png"
+      },
+      {
+        "pagePath": "pages/love/love",
+        "text": "喜爱",
+        "iconPath": "pages/image/love2.png",
+        "selectedIconPath": "pages/image/love1.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "账号",
+        "iconPath": "pages/image/account2.png",
+        "selectedIconPath": "pages/image/account1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

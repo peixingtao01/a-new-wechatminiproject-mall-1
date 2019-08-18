@@ -1,0 +1,102 @@
+<!--index.wxml-->
+
+<!--轮播图-->
+<view>
+  <swiper class="top1" autoplay="true" interval="3000" circular="true">
+    <swiper-item>
+      <image src="http://img63.ddimg.cn/upload_img/00087/geq/750x315_wzh_20190812-1565749460.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://img61.ddimg.cn/ddreader/dangebook/8y3rd_750x315.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://img61.ddimg.cn/upload_img/00796/ts0813_0819/750x315_dl_0809-1565592196.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://img61.ddimg.cn/upload_img/00316/by/750X315-1565866025.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://img61.ddimg.cn/topic_img/gys_0015115/2019.8.12ydjdd750x315.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!--搜索框-->
+<view class="ipts">
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <input placeholder="请输入搜索内容" type="text" class="ipt" placeholder-class="ddd"></input>
+</form>
+</view>
+<view class="iptk"></view>
+
+<!--分类-->
+<view>
+  <view class="fenleis">
+    <navigator class="fenlei"><image src="/pages/image/fenlei1.png"></image>战争</navigator>
+    <view class="fenlei1"></view>
+    <navigator class="fenlei"><image src="/pages/image/fenlei2.png"></image>言情</navigator>
+    <view class="fenlei1"></view>
+    <navigator class="fenlei"><image src="/pages/image/fenlei3.png"></image>技术</navigator>
+    <view class="fenlei1"></view>
+    <navigator class="fenlei"><image src="/pages/image/fenlei4.png"></image>闲杂</navigator>
+  </view>
+</view>
+<view class="iptk"></view>
+
+<!--好消息-->
+<view>
+  <label><image src="/pages/image/guangbo.png" id="guangbo"></image>：<text>好消息</text></label>
+</view>
+<view class="iptk"></view>
+<view id="youhuis">
+  <image src="http://img61.ddimg.cn/upload_img/00778/a/49yuan5jian-1551162045.jpg" id="youhui"></image>
+</view>
+<view class="iptk"></view>
+
+<!--每日推荐-->
+<!--书名最多13个字-->
+  <view class="tuijian">
+
+  <view class="xiangxis">
+    <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    <view class="bookname">人间失格</view>
+    <view><text class="bookxprice">￥79.3</text><text class="bookzprice">++</text><text class="bookyprice">￥99.0</text></view>
+  </view>
+
+  <view class="xiangxis">
+    <image src="http://img3m2.ddimg.cn/97/8/27871072-1_w_8.jpg"></image>
+    <view class="bookname">产品思维：从新手到资深产品人</view>
+    <view><text class="bookxprice">￥49.5</text><text class="bookzprice">++</text><text class="bookyprice">￥59.0</text></view>
+  </view>
+
+  <view class="xiangxis">
+    <image src="http://img3m3.ddimg.cn/0/34/26511903-1_w_2.jpg"></image>
+    <view class="bookname">财务自由之路（全三册）</view>
+    <view><text class="bookxprice">￥93.1</text><text class="bookzprice">++</text><text class="bookyprice">￥135.0</text></view>
+  </view>
+
+<view class="xiangxis">
+    <image src="http://img3m5.ddimg.cn/56/4/23761145-1_w_6.jpg"></image>
+    <view class="bookname">人间失格</view>
+    <view><text class="bookxprice">￥79.3</text><text class="bookzprice">++</text><text class="bookyprice">￥99.0</text></view>
+  </view>
+
+  <view class="xiangxis">
+    <image src="http://img3m2.ddimg.cn/97/8/27871072-1_w_8.jpg"></image>
+    <view class="bookname">产品思维：从新手到资深产品人</view>
+    <view><text class="bookxprice">￥49.5</text><text class="bookzprice">++</text><text class="bookyprice">￥59.0</text></view>
+  </view>
+
+  <view class="xiangxis">
+    <image src="http://img3m3.ddimg.cn/0/34/26511903-1_w_2.jpg"></image>
+    <view class="bookname">财务自由之路（全三册）</view>
+    <view><text class="bookxprice">￥93.1</text><text class="bookzprice">++</text><text class="bookyprice">￥135.0</text></view>
+  </view>
+
+</view>
+
+
+<view class="dixian">
+      <text>——————人家可是有底线的——————</text>
+  </view>
+<!--"navigationStyle": "custom" //取消顶部框-->

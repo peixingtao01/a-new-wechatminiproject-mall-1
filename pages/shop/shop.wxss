@@ -1,0 +1,46 @@
+/* pages/shop/shop.wxss */
+.ipt{
+  width: 90%;
+  border-bottom: 1px #666 solid;
+  margin: auto;
+  z-index: 99;
+  background-color: #ffffff;
+}
+.ddd{
+  color: #666;
+  font-size: 13px;
+  font-family: '黑体';
+  margin: auto;
+  text-align: center;
+}
+.xiangxis{
+  width: 50%;
+  float: left;
+}
+.xiangxis image{
+  width:100%;
+  height: 10rem;
+}
+.bookname{
+  font-size: 12px;
+  font-weight: bold;
+}
+.bookxprice{
+  font-size: 30rpx;
+  color: red;
+}
+.bookyprice{
+  font-size: 25rpx;
+  color: #666;
+  text-decoration: line-through;
+}
+.bookzprice{
+  color: #ffffff;
+}
+.dixian{
+  width: 100%;
+  height: 20px;
+  color: #ccc;
+  font-size: 20rpx;
+  text-align: center;
+}
